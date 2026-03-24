@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Copy data folder (will be overridden by volume mount if present)
-COPY ../data /app/../data
+COPY data/ ./data/
 
 EXPOSE 8000
 
