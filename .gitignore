@@ -1,0 +1,29 @@
+# Environment
+.env
+*.env
+
+# Database (regenerated on startup)
+backend/erp.db
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

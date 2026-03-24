@@ -1,0 +1,25 @@
+{
+  "name": "dodge-ai-erp-graph",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "cytoscape": "^3.29.2",
+    "cytoscape-fcose": "^2.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "proxy": "http://localhost:8000",
+  "browserslist": {
+    "production": [">0.2%", "not dead"],
+    "development": ["last 1 chrome version"]
+  }
+}
